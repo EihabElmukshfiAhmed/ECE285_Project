@@ -1,6 +1,6 @@
 using PowerModels,Ipopt, DataFrames
 using Gurobi, JuMP, DataFrames, ExcelFiles 
-#
+
 
 case_file = "C:/Users/eihab/OneDrive/Desktop/SDSU/Julia/VPP/case6ww.m"
 network_data = PowerModels.parse_file(case_file)
